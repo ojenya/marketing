@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Презентация</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords" content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" href="https://ojenya.github.io/practice/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://ojenya.github.io/practice/fullPage.js-master/dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="https://ojenya.github.io/practice/fullPage.js-master/examples/examples.css" />
+</head>
+
+<body>
+    <ul id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Главная</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Бизнес-модель  </a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">Обзор рынка</a></li>
+        <li data-menuanchor="4thPage"><a href="#4thPage">Портреты ЦА</a></li>
+        <li data-menuanchor="5thPage"><a href="#5thPage">SWOT-анализ</a></li>
+        <li data-menuanchor="6thPage"><a href="#6thPage">Балльный анализ</a></li>
+        <li data-menuanchor="7thPage"><a href="#7thPage">Модель позиционирования</a></li>
+        <li data-menuanchor="8thPage"><a href="#8thPage">Целевая страница</a></li>
+        <li data-menuanchor="9thPage"><a href="#9thPage">Медиа-план</a></li>
+
+
+
+    </ul>
+    <div id="fullpage">
+        <div class="section active" id="section0">
+            <div class="overlay">
+                <h1>Отчет по проекту <br> @MALINOVKA</h1>
+            </div>
+
+            <video data-autoplay loop muted poster="" class="fullscreen-bg__video">
+                <!-- <source src="https://ojenya.github.io/practice/row.mp4" type="video/mp4"> -->
+                <source src="row.mp4" type="video/mp4">
+
+            </video>
+        </div>
+        <div class="section" id="section1">
+            <div class="slide active" id="slide1">
+                <div class="intro">
+                    <br>
+                    <br>
+                    <h1>Бизнес-модель организации</h1>
+                    <img width="65%" src="./img/biz-plan.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="slide active" id="slide1">
+                <div class="intro">
+                    <h1>Обзор рынка: мир</h1>
+                    <!-- <p><br> Изучение библиотеки “amChart” <br> создание интерактивной карты регионов России </p> -->
+                    <br>
+                    <iframe width="1400px" height="600px" data-src="./pdf/obzor-mir.pdf"></iframe>
+
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="intro">
+                    <h1>Обзор рынка: страна</h1>
+                    <br>
+                    <iframe width="1400px" height="700px" data-src=""></iframe>
+
+                </div>
+            </div>
+
+            <div class="slide" id="slide3">
+                <div class="intro">
+                    <h1>Обзор рынка: регион</h1>
+
+                    <br>
+                    <iframe width="1400px" height="600px" style="background-color: #fff;" data-src=""></iframe>
+
+                </div>
+            </div>
+            <div class="slide" id="slide4">
+                <div class="intro">
+                    <h1>Обзор рынка: город</h1>
+
+                    <br>
+                    <iframe width="1400px" height="600px" style="background-color: #fff;" data-src=""></iframe>
+
+                </div>
+            </div>
+            <!-- <div class="slide" id="slide5">
+                <div class="intro">
+                    <h1>Список реализованных проектов:</h1>
+                    <br>
+                    <br>
+                    <div class="list">
+                        <p>1) Создание нтерактивной карты России</p>
+                        <br>
+
+                        <p>2) Верстка сайта Architect Reality с parallax-эффектом и поблочным скролом</p>
+                        <br>
+
+                        <p>3) Верстка сайта Authentica Club и реализация модуля модуля получения и обработки данных для авторизации</p>
+                        <br>
+
+                        <p>4) Верстка сайта Authentica Club и реализация модуля модуля получения и обработки данных для авторизации с использовнием библиотеки React</p>
+                        <br>
+
+                        <p>5) Адаптивная верстка сайта для АО Корпарация Развития Иркутской Области. Страницы «Контакты», «Новости», «Выбранная новость», «Институты», «Выбранный институт», «Выбранный институт/Услуги», «Выбранная услуга с раскрытыми списками»,
+                            «Выбранная услуга с описанием», «Услуги».</p>
+
+                    </div>
+
+
+                    <br>
+
+                </div>
+            </div> -->
+
+
+        </div>
+
+
+        <div class="section" id="section3">
+            <div class="slide active" id="slide1">
+                <div class="intro">
+
+                    <h1>Портреты ЦА</h1>
+                    <br>
+                    <iframe width="80%" height="600px" data-src="./p1.html"></iframe>
+
+
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="intro">
+                    <h1>Портреты ЦА</h1>
+                    <br>
+                    <iframe width="80%" height="600px" data-src="./p2.html"></iframe>
+
+                </div>
+            </div>
+
+            <div class="slide" id="slide3">
+                <div class="intro">
+                    <h1>Портреты ЦА</h1>
+                    <br>
+                    <iframe width="80%" height="600px" data-src="./p3.html"></iframe>
+                </div>
+            </div>
+            <div class="slide" id="slide4">
+                <div class="intro">
+                    <h1>Портреты ЦА</h1>
+                    <br>
+                    <iframe width="80%" height="600px" data-src="./p4.html"></iframe>
+
+
+                    <!-- <iframe width="1400px" height="600px" style="background-color: #fff;" data-src="https://ojenya.github.io/Krio/institutes.html"></iframe> -->
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="section" id="section4">
+            <div class="intro">
+                <!-- <iframe width="100%" height="600px" data-src="/img/swot.png"></iframe> -->
+
+                <img class="swot" src="/img/swot.png" width="90%" alt="" srcset="">
+            </div>
+        </div>
+        <div class="section" id="section5">
+            <div class="intro">
+                <h1>Балльный анализ конкурентов</h1>
+
+                <iframe width="1400px" height="700px" data-src="./pdf/ball.pdf"></iframe>
+
+
+            </div>
+        </div>
+        <div class="section " id="section6">
+            <div class="intro">
+                <h1>Модель позиционирования</h1>
+                <br>
+                <iframe width="1400px" height="700px" style="background-color: #fff;" data-src="./pdf/pozic.pdf"></iframe>
+
+
+            </div>
+        </div>
+        <div class="section" id="section7">
+            <div class="slide active" id="slide1">
+                <div class="intro">
+                    <h1>Целевая страница</h1>
+                    <br>
+                    <iframe width="1400px" height="700px" data-src="https://ojenya.github.io/irktulpan/"></iframe>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section8">
+            <div class="slide active" id="slide1">
+                <div class="intro">
+                    <h1>Медиа-план</h1>
+                    <br>
+                    <iframe width="1400px" height="700px" data-src=""></iframe>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://ojenya.github.io/practice/fullPage.js-master/dist/fullpage.js"></script>
+    <script type="text/javascript" src="https://ojenya.github.io/practice/fullPage.js-master/examples/examples.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff'],
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage', '9thPage'],
+            menu: '#menu',
+            lazyLoad: true
+        });
+    </script>
+</body>
+
+</html>
