@@ -19,12 +19,6 @@
     align-items: center;
 }
 
-.overlay h1 {
-    font-family: 'Roboto';
-    text-align: center;
-    color: #fff;
-}
-
 #section0 h1 {
     font-size: 80px;
 }
@@ -60,6 +54,13 @@ p,
 h2 {
     font-family: Roboto;
     color: #444444;
+}
+
+.overlay h1 {
+    /* font-family: 'Roboto'; */
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    color: #fff;
 }
 
 .row {
